@@ -1,69 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Latihan 1_Test Page : Bandung</title>
-    <link rel="stylesheet" href="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\02-Web Developing\assets\styles\style.css">
-  </head>
 
+    <link rel="stylesheet" href="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\Bangkit-2023\02-Web Developing\assets\styles\style.css">
+  </head>
 <body>
 
-<aside>
-    <article>
-         <header>
-             <h2>Kota Bandung</h2>
-             <p>Kota Kembang Paris van Java</p>
-             <figure>
-                <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\02-Web Developing\assets\image\Bandung_coa.png"
-                alt ="Lambang Bandung" width="400">
-                <figcaption>Lambang</figcaption>
-              </figure>
-         </header>
-         <section>
-               <h3>Informasi Lainnya</h3>
-                <table>
-                    <table border="1">
-                    <tr>
-                        <th>Negara</th>
-                        <td>Indonesia</td>
-                    </tr>
-                    <tr>
-                        <th>Hari jadi</th>
-                        <td>25 September 1810</td>
-                    </tr>
-                    <tr>
-                        <th>Luas Total</th>
-                        <td>167.67 km<sup>2</sup></td>
-                    </tr>
-                    <tr>
-                        <th>Bahasa Daerah</th>
-                        <td>Sunda</td>
-                    </tr>
-                     <tr>
-                        <th>Kode Telepon</th>
-                        <td>+62 22</td>
-                    </tr>
-                </table>
-         </section>
-    </article>
-</aside>
-
-<header>
-    <h1>Bandung</h1>
-    <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
-    <nav>
-      <ul>
-        <li><a href="#sejarah">Sejarah</a></li>
-        <li><a href="#geografis">Geografis</a></li>
-        <li><a href="#wisata">Wisata</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <header>
+    <div class="jumbotron">
+      <h1>Bandung</h1>
+      <p>Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu kota provinsi tersebut.</p>
+    </div>
+  
+      <nav>
+        <ul>
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#geografis">Geografis</a></li>
+          <li><a href="#wisata">Wisata</a></li>
+        </ul>
+      </nav>
+    </header>
+  
   <main>
 <div id="content">
-  <article id="sejarah">
+  <article id="sejarah" class="card">
     <h2>Sejarah</h2>
-    <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\02-Web Developing\assets\image\history.jpg" alt="sejarah" width="400">
+    <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\Bangkit-2023\02-Web Developing\assets\image\history.jpg" 
+    class="featured-image" alt="sejarah" >
     <p>
       Kata Bandung berasal dari kata bendung atau bendungan karena terbendungnya sungai Citarum oleh lava Gunung
       Tangkuban Parahu yang lalu membentuk telaga. Legenda yang diceritakan oleh orang-orang tua di Bandung mengatakan
@@ -80,9 +47,10 @@
     </p>
   </article>
   
-  <article id="geografis">
+  <article id="geografis" class="card">
     <h2>Geografis</h2>
-    <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\02-Web Developing\assets\image\geografis.jpg" alt="geografis" width="400">
+    <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\Bangkit-2023\02-Web Developing\assets\image\geografis.jpg" 
+    class="featured-image" alt="geografis">
     <p>
       Kota Bandung dikelilingi oleh pegunungan, sehingga bentuk morfologi wilayahnya bagaikan sebuah mangkok raksasa,
       secara geografis kota ini terletak di tengah-tengah provinsi Jawa Barat, serta berada pada ketinggian ±768 m di
@@ -96,7 +64,7 @@
     </p>
   </article>
   
-  <article id="wisata">
+  <article id="wisata" class="card">
     <h2>Wisata</h2>
     <p>
       Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam menikmati liburan akhir pekan
@@ -105,7 +73,8 @@
     </p>
     <section>
       <h3>Farm House Lembang</h3>
-      <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\02-Web Developing\assets\image\farm-house.jpg" alt="farm house" width="400">
+      <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\Bangkit-2023\02-Web Developing\assets\image\farm-house.jpg" 
+      class="featured-image" alt="farm house" >
       <p>
         Berada di jalur utama Bandung-Lembang, Farm House menjadi objek wisata yang tidak pernah sepi pengunjung. Selain
         karena letaknya strategis, kawasan ini juga menghadirkan nuansa wisata khas Eropa. Semua itu diterapkan dalam
@@ -114,7 +83,8 @@
     </section>
     <section>
       <h3>Observatorium Bosscha</h3>
-      <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\02-Web Developing\assets\image\bosscha.jpg" alt="bosscha" width="400">
+      <img src="D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\Bangkit-2023\02-Web Developing\assets\image\bosscha.jpg"
+      class="featured-image" alt="bosscha">
       <p>
         Memiliki beberapa teleskop, antara lain, Refraktor Ganda Zeiss, Schmidt Bimasakti, Refraktor Bamberg, Cassegrain
         GOTO, dan Teleskop Surya. Refraktor Ganda Zeiss adalah jenis teleskop terbesar untuk meneropong bintang. Benda
@@ -126,10 +96,51 @@
     </section>
   </article>
 </div>
+
+<aside>
+  <article class="card profile">
+       <header>
+           <h2>Kota Bandung</h2>
+           <p>Kota Kembang Paris van Java</p>
+           <figure>
+              <img src= "D:\PENTING_Perkuliahan\Semester 8_Bangkit\03-Latihan Coding\Bangkit-2023\02-Web Developing\assets\image\Bandung_coa.png"
+              alt ="Lambang Bandung">
+              <figcaption>Lambang</figcaption>
+            </figure>
+       </header>
+       <section>
+             <h3>Informasi Lainnya</h3>
+              <table>
+                  <table border="1">
+                  <tr>
+                      <th>Negara</th>
+                      <td>Indonesia</td>
+                  </tr>
+                  <tr>
+                      <th>Hari jadi</th>
+                      <td>25 September 1810</td>
+                  </tr>
+                  <tr>
+                      <th>Luas Total</th>
+                      <td>167.67 km<sup>2</sup></td>
+                  </tr>
+                  <tr>
+                      <th>Bahasa Daerah</th>
+                      <td>Sunda</td>
+                  </tr>
+                   <tr>
+                      <th>Kode Telepon</th>
+                      <td>+62 22</td>
+                  </tr>
+              </table>
+       </section>
+  </article>
+</aside>
+
 </main>
 
         <footer>
-            &copy; 2019, Dicoding Academy
+          <p>Belajar Dasar Pemrograman &copy; 2019, Dicoding Academy</p>
         </footer>
     </body>
 
