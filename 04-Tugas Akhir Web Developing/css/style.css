@@ -1,12 +1,223 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
-*{
+
+  /*
+ Color palette yang digunakan.
+--white: #FBFDFEff;
+--ochre: #CD7509ff;
+--gray: #75776Cff;
+--french-gray: #ADB6BCff;
+--walnut-brown: #555040ff;
+  */
+
+  *{
     font-family: 'Nunito Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
+}
+
+body{
+  background: #ADB6BCff;
+  color: black;
+  
+}
+
+#header {
+  width: 100%;
+  height: 100vh;
+  
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  height: 100px;
+  padding: 10px 10%;
 
 
 
 }
+/*---------------------Navbar--------------------*/
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
+}
+
+.logo {
+  width: 140px;
+  
+
+}
+li{
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #1d1918;
+  position: relative;
+ 
+
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0px;
+  height: 4px;
+  background: #555040ff;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+  transition: 0.5s;
+  
+ 
+}
+
+
+nav ul li a:hover::after {
+  width: 100%;
+
+  background-color: #CD7509ff;
+  opacity: 95%;
+  border-radius: 5px;
+ 
+
+}
+
+.header-text {
+  color: #ffffff;
+  margin-top: 25%;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #1d1918;
+}
+.header-text h1 {
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+.header-text h1 span {
+  color: rgb(43, 152, 224);
+}
+
+/*.......................Tentang Saya--------------------------------*/
+
+#about {
+  padding:  80px 0;
+  color:#555040ff;
+  margin-bottom: 60vh;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-column-1{
+  flex-basis: 40%;
+}
+
+.about-column-1 img{
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20vh;
+}
+
+.about-column-2 {
+  margin-top: 10vh;
+  flex-basis: 56%;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+/*--------Minat Saya------------*/
+
+#interest {
+  padding:  80px 0;
+  color:#555040ff;
+}
+.row1{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-column-3{
+  flex-basis: 40%;
+}
+
+.about-column-3 {
+  margin-top: 10vh;
+  flex-basis: 56%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about-column-4 img{
+  width: 100%;
+  border-radius: 20px;
+}
+/* ----------------kontak ----------------*/
+main aside {
+  margin-top: 10vh;
+  color:#555040ff;
+}
+
+main aside .container {
+  height: 100%;
+  display: flex;
+}
+ 
+main aside .container ul {
+  padding: 3rem 2rem;
+  margin-top: 10vh;
+  background-color: #75776Cff;
+ 
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+ 
+main aside .container li {
+  list-style-type: none;
+}
+
+main aside .container li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all .1s ease-in-out;
+}
+ 
+main aside .container li a:hover {
+  color: #75776Cff;
+}
+
+
+
+footer {
+  padding: 40px;
+  color: #fff;
+  background-color: #555040ff;
+  text-align: center;
+}
+
+
+
+     
