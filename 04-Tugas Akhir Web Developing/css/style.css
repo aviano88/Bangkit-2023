@@ -173,7 +173,7 @@ nav ul li a:hover::after {
 }
 /* ----------------kontak ----------------*/
 main aside {
-  margin-top: 10vh;
+  margin-top: 20vh;
   color:#555040ff;
 }
 
@@ -184,7 +184,7 @@ main aside .container {
  
 main aside .container ul {
   padding: 3rem 2rem;
-  margin-top: 10vh;
+  list-style-type: none;
   background-color: #75776Cff;
  
   display: flex;
@@ -209,15 +209,12 @@ main aside .container li a:hover {
   color: #75776Cff;
 }
 
-
-
+/*footer*/
 footer {
   padding: 40px;
   color: #fff;
   background-color: #555040ff;
   text-align: center;
 }
-
-
-
+/*end footer*/
      

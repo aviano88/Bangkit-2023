@@ -16,6 +16,12 @@ if (result >= 90 && result <= 100){
 } 
 
 console.log(result);
+function multiply(a,b) {
+  
+  return a*b;
+  
+}
 
+multiply(4,5);
   // Jangan hapus kode ini
   return result;
